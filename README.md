@@ -22,9 +22,46 @@ The final product is an ES module, and it can be used alone.
 npm i wc-lantern
 ```
 
-## By CDN
+### By CDN
 
+See [demo/index.html](https://github.com/wibus-wee/wc-lantern/blob/main/demo/index.html)
 
+```html
+<!-- cdn -->
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/wc-lantern@latest"
+></script>
+```
+
+### By NPM
+
+```ts
+// main.ts
+import "wc-lantern"
+```
+
+```html
+<!-- index.html -->
+<lantern-element></lantern-element>
+```
+
+## API
+
+### Example
+
+```html
+<lantern-element
+  number="2"
+  text="Good,Great"
+  disPlayBoth
+></lantern-element>
+<lantern-element
+  number="2"
+  position="right"
+  text="Good,Great"
+></lantern-element>
+```
 
 <!-- wc-api:start -->
 <!-- prettier-ignore-start -->
@@ -53,3 +90,11 @@ npm i wc-lantern
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 <!-- wc-api:end -->
+
+
+
+## Author
+
+GS-server © Wibus, Released under the MIT License.
+
+> [Personal Website](http://iucky.cn/) · [Blog](https://blog.iucky.cn/) · GitHub [@wibus-wee](https://github.com/wibus-wee/) · Telegram [@wibus✪](https://t.me/wibus_wee)
