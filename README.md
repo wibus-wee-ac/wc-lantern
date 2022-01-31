@@ -78,12 +78,13 @@ import "wc-lantern"
 
 ##### Fields
 
-| Name          | Privacy | Type      | Default   | Description                                                                                   | Inherited From |
-| ------------- | ------- | --------- | --------- | --------------------------------------------------------------------------------------------- | -------------- |
-| `text`        |         | `string`  | `'春,节'`   | The text on lantern，use \`,\` to divide the text                                              |                |
-| `number`      |         | `number`  | `2`       | The number of lanterns returned, up to 2                                                      |                |
-| `disPlayBoth` |         | `boolean` | `false`   | Whether to display left or right; otherwise, the output will be based on the 'position' field |                |
-| `position`    |         | `string`  | `'right'` | The position of the lantern, left or right                                                    |                |
+| Name            | Privacy | Type      | Default   | Description                                                                                   | Inherited From |
+| --------------- | ------- | --------- | --------- | --------------------------------------------------------------------------------------------- | -------------- |
+| `text`          |         | `string`  | `'春,节'`   | The text on lantern，use \`,\` to divide the text                                              |                |
+| `number`        |         | `number`  | `2`       | The number of lanterns returned, up to 2                                                      |                |
+| `displayMobile` |         | `boolean` | `false`   | display on moblie (very not recommended)                                                      |                |
+| `disPlayBoth`   |         | `boolean` | `false`   | Whether to display left or right; otherwise, the output will be based on the 'position' field |                |
+| `position`      |         | `string`  | `'right'` | The position of the lantern, left or right                                                    |                |
 
 <hr/>
 
