@@ -7,6 +7,13 @@ import { customElement, property } from 'lit/decorators.js'
 @customElement('lantern-element')
 export class LanternElement extends LitElement {
   static styles = css`
+  
+  @media only screen and (max-width: 768px) {
+    .moblieNo{
+      display: none;
+    }
+  }
+
   .lantern-box0 {
     position: fixed;
     top: -40px;
@@ -198,6 +205,12 @@ export class LanternElement extends LitElement {
   number = 2
 
   /**
+   * display on moblie (very not recommended)
+   */
+  @property({type: Boolean})
+   displayMobile = false;
+
+  /**
    * Whether to display left or right; otherwise, the output will be based on the 'position' field
    */
   @property({type: Boolean})
@@ -211,7 +224,7 @@ export class LanternElement extends LitElement {
 
   private loopRender(i:number,position: string){
       return html`
-      <div class="lantern-box${i} ${"push-" + position}">
+      <div class="lantern-box${i} ${"push-" + position} ${this.displayMobile ? '': 'moblieNo'}">
       <div class="lantern">
           <div class="xian"></div>
           <div class="lantern-a">

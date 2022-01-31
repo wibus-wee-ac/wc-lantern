@@ -1,6 +1,6 @@
 # Lantern for Web Components
 
-[![npm](https://img.shields.io/npm/v/wc-lantern)](https://www.npmjs.com/package/wc-lantern)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/wibus-wee/lantern-element) [![npm](https://img.shields.io/npm/v/wc-lantern)](https://www.npmjs.com/package/wc-lantern)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/wc-lantern)
 ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/wc-lantern)
 

@@ -3,7 +3,7 @@
  * @author: Wibus
  * @Date: 2022-01-31 11:55:45
  * @LastEditors: Wibus
- * @LastEditTime: 2022-01-31 11:55:45
+ * @LastEditTime: 2022-01-31 14:24:18
  * Coding With IU
  */
 
@@ -19,6 +19,11 @@ export declare class LanternElement extends LitElement{
    * The number of lanterns returned, up to 2
    */
   number: number;
+
+  /**
+   * display on moblie (very not recommended)
+   */
+  displayMobile: boolean;
 
   /**
    * Whether to display left or right; otherwise, the output will be based on the 'position' field
