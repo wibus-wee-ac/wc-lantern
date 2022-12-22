@@ -4,6 +4,9 @@
     "lib": ["es2017", "dom", "dom.iterable"],
     "declaration": true,
     "emitDeclarationOnly": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
     "outDir": "./types",
     "rootDir": "./src",
     "strict": true,
@@ -17,6 +20,6 @@
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": false
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/index.tsx", "src/index.tsx"],
   "exclude": []
 }
